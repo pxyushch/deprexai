@@ -1,0 +1,19 @@
+{
+  "models": {
+    "ESG": {
+      "source": "electra_finetuned-20260420T083839Z-3-001.zip",
+      "loader": "huggingface",
+      "display_name": "Electra Small Generator"
+    },
+    "ABV": {
+      "source": "albert_finetuned-20260420T083839Z-3-001.zip",
+      "loader": "huggingface",
+      "display_name": "ALBERT Base V2"
+    },
+    "XDL": {
+      "source": "xtremedistil_finetuned-20260420T083843Z-3-001.zip",
+      "loader": "huggingface",
+      "display_name": "XtremeDistil"
+    }
+  }
+}

@@ -1,0 +1,95 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 220 32% 97%;
+  --foreground: 226 30% 12%;
+  --card: 0 0% 100%;
+  --card-foreground: 226 30% 12%;
+  --border: 220 20% 88%;
+  --input: 220 20% 92%;
+  --ring: 14 90% 62%;
+  --primary: 14 90% 58%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 220 18% 94%;
+  --muted-foreground: 224 16% 40%;
+  --accent: 210 85% 56%;
+  --accent-foreground: 0 0% 100%;
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 100%;
+  --severity-mild: 46 96% 62%;
+  --severity-moderate: 29 95% 58%;
+  --severity-severe: 2 83% 61%;
+  --severity-safe: 142 69% 45%;
+}
+
+.dark {
+  --background: 226 37% 7%;
+  --foreground: 210 20% 96%;
+  --card: 226 34% 12%;
+  --card-foreground: 210 20% 96%;
+  --border: 220 21% 20%;
+  --input: 226 24% 16%;
+  --ring: 14 90% 62%;
+  --primary: 14 90% 62%;
+  --primary-foreground: 0 0% 100%;
+  --muted: 224 22% 16%;
+  --muted-foreground: 218 12% 70%;
+  --accent: 209 92% 64%;
+  --accent-foreground: 226 37% 10%;
+  --destructive: 2 84% 61%;
+  --destructive-foreground: 0 0% 100%;
+  --severity-mild: 46 94% 62%;
+  --severity-moderate: 29 95% 58%;
+  --severity-severe: 2 83% 61%;
+  --severity-safe: 142 69% 45%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply min-h-screen bg-background text-foreground antialiased;
+    background-image:
+      radial-gradient(circle at top, rgba(244, 95, 72, 0.16), transparent 32%),
+      radial-gradient(circle at 80% 20%, rgba(97, 165, 255, 0.12), transparent 24%),
+      linear-gradient(180deg, rgba(4, 6, 17, 1) 0%, rgba(9, 11, 24, 1) 42%, rgba(4, 6, 17, 1) 100%);
+    background-attachment: fixed;
+  }
+
+  html.light body {
+    background-image:
+      radial-gradient(circle at top, rgba(244, 95, 72, 0.1), transparent 36%),
+      radial-gradient(circle at 80% 20%, rgba(97, 165, 255, 0.12), transparent 24%),
+      linear-gradient(180deg, rgba(245, 247, 252, 1) 0%, rgba(240, 243, 249, 1) 100%);
+  }
+
+  ::selection {
+    background: rgba(244, 95, 72, 0.32);
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply rounded-3xl border border-white/10 bg-white/5 backdrop-blur-xl shadow-glow;
+  }
+
+  .grid-glow {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+    background-size: 44px 44px;
+    mask-image: linear-gradient(180deg, rgba(0, 0, 0, 1), transparent 88%);
+  }
+
+  .section-title {
+    @apply text-3xl font-semibold tracking-tight md:text-4xl;
+  }
+}

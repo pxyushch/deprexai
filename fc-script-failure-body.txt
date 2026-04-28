@@ -1,0 +1,418 @@
+All
+Type and press enter
+ 
+Help menu
+Admin
+FA
+FranConnect Administrator
+	
+
+
+ADMIN
+	
+		
+		
+ 	
+ 		 
+
+Users
+Access Control
+Area / Region Management
+Franchise Location
+Configuration
+Sales
+FDD Management
+Opener
+Info Mgr
+Hub
+Support
+Training
+Finance
+Visits
+Zip / Postal Code Locator
+Marketing
+Manage Address
+CRM
+Print Ads
+Shop
+Surveys
+Hidden Links
+		
+ Users
+
+Administer system user settings - Manage users and their login credentials and export users' information.
+
+Corporate Users
+Manage corporate users and their login credentials.
+ 
+Regional Users
+Manage regional users and their login credentials.
+ 
+Master Franchise Users
+Manage Master Franchise users and their login credentials.
+ 
+Franchise Users
+Manage franchise users and their login credentials.
+ 
+Suppliers
+Manage suppliers' information along with the products they supply.
+ 
+Import Users
+Import users using CSV/TXT file.
+ 
+Export
+Export users' information to XML/CSV/Excel.
+Back To Top
+ Access Control
+
+Manage logs for actions performed, define users roles and permissions and modifications made in different entities of the system. You can set filter parameters to view log reports corresponding to the desired criteria.
+
+Roles
+Define user roles and associate privileges with them.
+ 
+User Account Summary
+View account details of all user categories for a selected duration.
+ 
+User Status Logs
+View status logs for system users for a defined duration.
+ 
+Login Logs
+View detailed login reports of various system users for a selected duration.
+ 
+Deleted Logs
+View detailed records of deleted entries for a defined duration.
+ 
+Export Logs
+View records of system exports in a selected duration.
+ 
+Form Generator Logs
+View logs of activities done through Form Generator.
+ 
+Web Form Generator Logs
+View logs of activities done through Web Form Generator.
+ 
+Tab Generator Logs
+View logs of activities done through Form Generator for Tabs.
+ 
+Form Logs
+View logs of changes made in Form in a given duration.
+ 
+Library Logs
+View download details of specific library documents.
+ 
+Hub Searched Logs
+View records of searches performed by different system users on Hub module.
+ 
+Stories Logs
+View records of stories viewed by system users.
+Back To Top
+ Area / Region Management
+
+Create and Manage Area / Region.
+
+Manage Area / Region
+Manage domestic and international Area / Region with few clicks.
+ 
+Add New Area / Region
+Create a new Area / Region on the basis of postal code, state, area code or county.
+Back To Top
+ Franchise Location
+
+Use franchise location admin section, to add new franchise locations as well as manage the existing ones.
+
+Manage Franchise Locations
+Manage and monitor the performance of franchise locations.
+ 
+Add New Franchise Location
+Configure a new franchise location.
+ 
+Import Franchise Locations
+Import franchise locations using CSV/TXT file.
+ 
+Manage Lifecycle Stages
+Manage Lifecycle Stages.
+Back To Top
+ Configuration
+
+Manage generic settings of the system- set default theme, manage offensive keywords list, configure Email settings and manage call attributes.
+
+Configure GDPR Consent Tracking
+Configure GDPR Consent Tracking for General Data Protection Regulations.
+ 
+Configure Task Type
+Define different types of tasks.
+ 
+Configure Store Type
+Define different types of franchise stores.
+ 
+Configure Countries
+Define domestic and international Area / Region for your business.
+ 
+Configure Summary Display Columns
+Configure summary display columns.
+ 
+Configure Dictionary
+Manage dictionary that may contain terms specific to your business.
+ 
+Configure Translations
+Manage labels, headers and alert text translations.
+ 
+Configure MashUp Account
+Configure MashUp key that enables Location view in the Map.
+ 
+Configure Decimal Places
+Define decimal places used in currency fields throughout the system.
+ 
+PII Configuration
+Configure PII settings and view access logs of the PII.
+ 
+Configure Password Settings
+Configure policy for user account's password creation.
+ 
+Configure Search Settings
+Configure settings for universal search.
+ 
+Configure Notifications
+Set notification types (Email, alert) to be generated for a particular module.
+ 
+Configure Quick Links
+Define quick links that will be displayed on Quick Links & Notifications bar.
+ 
+Configure Search Criteria for Plugins
+This configuration applies for Gmail plugin, Outlook plugin, and the Email Uploader Legacy Tool.
+ 
+Notice Configuration
+Set up notice versions and monitor user logins for agreement.
+Theme	
+Back To Top 
+Configure Theme
+Set system's theme by configuring background & text colors for menu bar and submenus.
+ 
+Configure System Logos
+Configure logos to be displayed at various places in the system.
+ 
+Configure Module Sequence
+Set sequence of modules to be visible in menu bar.
+ 
+Configure Area / Region Label
+Configure label that is displayed at various places in the system.
+Single Sign On	
+Back To Top 
+Configure Single Sign On
+Configure SSO links for frequently visited sites.
+ 
+Configure Single Sign-On from other websites
+Configure SSO from other websites to FranConnect system.
+Configure Active Directory Integration
+Configure Active Directory Integration.
+Configure Calendar Settings	
+Back To Top 
+Configure Calendar Start Day
+Define the first day (Sunday or Monday) of week.
+ 
+Configure Calendar Event Categories
+Manage existing event categories and create a new one if needed.
+ 
+Configure Task Display On Calendar
+Define whether completed tasks should be displayed on the calendar or not.
+Email Settings	
+Back To Top 
+Configure Default From / Return-Path for Emails
+Set a default sender ID for the system generated Emails and a return-path on which Emails bounce back.
+ 
+Configure Support Email
+Set a support Email ID.
+ 
+Configure Company Profile
+Set Email footer (disclaimer, physical address) and social signature block for Email.
+ 
+Configure Task Emails
+Configure email content for task creation, task reminder and task completion. You can also configure whether task creation email will be sent in ICS / iCal format.
+ 
+Configure Default Cc / Bcc Email
+Set default Cc and Bcc Email IDs corresponding to each module.
+ 
+Configure User Account Emails
+Configure the different emails sent to the user at both system and division levels. This includes configuration for Welcome Email, OTP, Password Reset, and Expiration emails.
+Configure Call Attributes	
+Back To Top 
+Configure Call Status
+Define different call statuses and set their order.
+ 
+Configure Communication Type
+Define different forms of communication and arrange their sequence.
+Shopping Cart	
+Back To Top 
+Configure Disclaimer and Footer Elements
+Configure the footer elements for shopping cart and place order page.
+ 
+Configure Tax Rate
+Configure the tax rates for USA states which will be applicable on PO generated for their order amount and shipping amount.
+ 
+Configure Online Shipping Tools
+Enable/disable Online Shipping tools to streamline your shipping processes.
+ 
+Configure Payment Gateway Details
+Enable/disable payment gateway for processing online payments.
+ 
+Manage Print Vendors
+Manage existing print vendors and add new one if necessary.
+ 
+Manage Print Vendor Templates
+Configure templates that can be used to send Emails to print vendors.
+Local Listings & Reputation Management	
+Back To Top 
+Configure Local Listing Settings
+Enable/disable Local Listing features.
+ 
+Configure Vendasta Listings
+Configure Vendasta Listings and manage Google and Vendasta business categories
+ 
+Configure Reputation Management
+Manage the reputation for location to active, stop and associate with brand and region.
+Back To Top
+ Sales
+
+Manage leads, lead sources, lead attributes, email campaign triggers, virtual brochure settings, marketing costs and broker details etc.
+
+Manage Form Generator
+Manage different forms (Primary Info, Personal Profile, etc.) available in the Sales module.
+ 
+Manage Web Form Generator
+Design and Customize Web Forms using existing system fields.
+ 
+Configure Webform Settings
+Configure the Webform settings.
+ 
+Configure Subscription Type
+Manage campaigns using various configured Subscription Types.
+ 
+Sales Territories
+Create new sales territories and manage the existing territories.
+ 
+Define Unregistered States / Provinces
+Configure unregistered States/Provinces.
+ 
+Setup Sales Lead Owners
+Configure users as lead owners.
+ 
+Assign Lead Owners
+Assign lead owner to the leads.
+ 
+Configure Duplicate Criteria
+Configure criteria for determining duplicate leads.
+ 
+Configure Co-Applicant Relationship
+Configure co-applicant relationship with primary applicant.
+Configure Content for Default Emails and Web Form	
+Back To Top 
+Configure Email Content Sent to Lead Owner
+Configure content of Email notification sent out to the assigned lead owner.
+ 
+Configure Web Form Email Content
+Configure content of Email sent out to leads added through web form.
+ 
+Configure Weekly Updates Email
+Configure the sender and receiver of weekly updates mail.
+Configure Sales Process Steps	
+Back To Top 
+Status
+Configure a new lead status, modify, or delete an existing lead status.
+ 
+Configure Opt-out Status
+Configure opt-out status of leads who unsubscribe from Emailing campaign program.
+Define Lead Sources	
+Back To Top 
+Source
+Configure all possible sources of leads.
+Broker's Settings	
+Back To Top 
+Brokers Type Configuration
+Add, modify and delete Broker's Type.
+ 
+Brokers Agency
+Configure broker agency details.
+ 
+Configure Brokers Email Campaign Setting
+Enable or disable the broker Email campaign feature.
+Define Lead Attributes	
+Back To Top 
+Forecast Rating
+Configure and manage sales forecast rating.
+ 
+Configure Lead Rating
+Configure sales lead rating as per the user's perspective.
+ 
+Lead Status Change Reason
+Configure reason for changed lead status.
+ 
+Configure Qualification Checklists
+Configure tasks for the selected franchisee.
+ 
+Configure Heat Meter
+Configure heat index elements, lead qualification criteria, and the lead status criteria.
+Define Marketing and Advertising Costs	
+Back To Top 
+Configure Marketing Costs
+Configure marketing costs while acquiring leads from different sources.
+ 
+Marketing Code
+Add and manage lead marketing code.
+Virtual Brochure Settings	
+Back To Top 
+Configure Virtual Brochure Campaign Settings
+Configure virtual brochure password setting to access the sections of the Virtual Brochure.
+ 
+Manage Candidate Portal
+Manage various candidate portal activities.
+Integrations	
+Back To Top 
+Configure SMS
+Configure Twilio Account / Sub Accounts for sending SMS.
+ 
+Configure Search Criteria for API / Plugins
+This configuration applies for Gmail plugin, Outlook plugin, Email Uploader and REST API tools.
+ 
+Configure Email Capture
+Configure Sales Email server and other Email information.
+Back To Top
+ FDD Management
+
+FDD displays the inclusive information about the franchisor and the franchise organization. Manage FDD documents, FDD Email templates, ITEM-23 Receipts and other related details.
+
+FDD Management
+Upload a new FDD document, modify or archive an existing FDD document.
+ 
+FDD Configuration Settings
+Configure FDD Settings.
+ 
+FDD Email Template summary
+Configure FDD Email template sent to prospect(s).
+ 
+Acknowledgment of Receipt Content
+Configure content of Acknowledgment of Receipt on FDD Portal.
+ 
+FDD / Item 23 - Receipt Summary
+View and manage FDD / ITEM 23 - Receipts.
+ 
+Configure Email sent Prior to FDD Email
+Configure content of intimation Email sent prior to FDD Email.
+ 
+Configure Email sent Prior to FDD Expiration
+Configure content of intimation Email sent prior to FDD Expiration.
+ 
+Configure FDD Complete Page
+Configure content of FDD Complete Page.
+ 
+Configure Seller Keywords Template
+View and manage seller keywords templates.
+Back To Top
+ Opener
+
+Manage checklists of important tasks and items for opening a franchise store, configure customizable fields of the form to be filled while store opening, and also manage task alert frequency.
+
+Task Checklist
+Manage checklist of tasks that need to be completed prior to opening of a store.
+ 
+Equipment Checklist
+Manage checklist of equipments to 
