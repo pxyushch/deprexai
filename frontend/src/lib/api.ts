@@ -8,6 +8,7 @@ import type {
 
 const API_BASE_URL = import.meta.env.VITE_API_URL ?? "http://localhost:8000";
 const DEFAULT_TIMEOUT_MS = 25000;
+const PREDICT_TIMEOUT_MS = Number(import.meta.env.VITE_PREDICT_TIMEOUT_MS ?? 240000);
 const LONG_TIMEOUT_MS = 480000;
 
 type ApiErrorPayload = {
@@ -63,7 +64,7 @@ export const api = {
     request<PredictionResponse>("/predict", {
       method: "POST",
       body: JSON.stringify({ text }),
-    }, { timeoutMs: DEFAULT_TIMEOUT_MS }),
+    }, { timeoutMs: PREDICT_TIMEOUT_MS }),
   loadDataset: () => request<DatasetLoadResponse>("/load-dataset"),
   processData: (limit?: number) =>
     request<ProcessDataResponse>(

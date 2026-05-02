@@ -59,6 +59,7 @@ npm run dev
 ```
 
 By default the frontend expects the API at `http://localhost:8000`.
+For slower hosted inference, you can raise `VITE_PREDICT_TIMEOUT_MS` (default example: `240000`).
 
 ## Model Notes
 
